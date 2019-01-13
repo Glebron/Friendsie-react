@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Kysy = () => {
-  return (
-    <div className="kysy">
-    <h2>Kysy</h2>
-    </div>
-  )
+const kysy = {
+  display: function(){
+    const Kysy_display = function(){
+      return (
+        <div>
+        <p>Kysy</p>
+        </div>
+      )
+    }
+  ReactDOM.render(<Kysy_display />, document.getElementById('root2'))
+}
 }
 
-
-export default Kysy;
+export default kysy;

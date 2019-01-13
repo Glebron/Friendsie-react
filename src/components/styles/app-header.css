@@ -1,4 +1,32 @@
 .app-header {
   background-color: #67b5fa;
-  height: 150px;
+  height: 180px;
+  text-align: center;
+}
+.logo{
+  width: 160px;
+  margin-bottom: 24px;
+  margin-top: 5px;
+}
+
+.btn {
+  cursor: pointer;
+}
+.menu-buttons i {
+  margin-right: 5px;
+}
+
+.menu-buttons button{
+  border-radius: 5px 5px 0px 0;
+  width: 100px;
+  margin: 0 7px;
+  background-color: #498cc7;
+  color: white;
+  border: none;
+}
+.menu-buttons button:hover{
+ color: #498cc7;
+ background-color: #fafaf5;
+ transition: 0.5s;
+ outline: none;
 }

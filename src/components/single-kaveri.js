@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const SingleKaveri = ({name, typeOfQuestion}) => {
+import img from profile;
+
+
+const single_kaveri = (name, profile) => {
   return (
 <div className="single-kaveri">
-<span>{name} </span>
-<span>{typeOfQuestion}</span>
+<img src={img} alt="">
+<span>name</span>
 </div>
   )
 }
 
-export default SingleKaveri;
+
+export default single_kaveri;
